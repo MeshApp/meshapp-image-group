@@ -1,0 +1,10 @@
+.component-example{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.component-example p{
+
+}
