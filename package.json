@@ -1,6 +1,6 @@
 {
-  "name": "meshapp-component-boilerplate",
-  "version": "0.0.1",
+  "name": "meshapp-image-group",
+  "version": "0.0.2",
   "private": true,
   "main": "lib/index.js",
   "dependencies": {
