@@ -20,7 +20,11 @@ import React, { Component } from 'react'
 // Replace COMPONENTNAME with your component name
 // Open the index.js file inside the ./node_modules folder
 //
+
+// eslint-disable-next-line
 import ComponentExample from 'components/ComponentExample'
+
+import ImageGroup from 'components/ImageGroup'
 //
 // Default component to load your components
 // Include your imported component after the <ComponentExample /> component
@@ -28,7 +32,7 @@ import ComponentExample from 'components/ComponentExample'
 class App extends Component {
   render() {
     return (
-      <ComponentExample />
+      <ImageGroup width={'300px'} height={'300px'} borderRad={'0px'}/>
     )
   }
 }
