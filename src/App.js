@@ -30,9 +30,14 @@ import ImageGroup from 'components/ImageGroup'
 // Include your imported component after the <ComponentExample /> component
 //
 class App extends Component {
+
+  imagem(url) {
+    console.log('image clicked', url)
+  }
+
   render() {
     return (
-      <ImageGroup width={'300px'} height={'300px'} borderRad={'0px'}/>
+      <ImageGroup width={'300px'} height={'300px'} borderRad={'0px'} imageClicked={this.imagem}/>
     )
   }
 }
