@@ -29,6 +29,7 @@ Props
 
   imageClicked: PropTypes.func
     <ImageGroup imageClicked={this.YourFunction}/>
-      This functions will pass the url of the image clicked. The format of your function should be something like:
+      This functions will pass the url of the image clicked. 
+      The format of your function should be something like:
       twitterImageClicked(urlOfTheImage){}
 ```
