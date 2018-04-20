@@ -1,18 +1,27 @@
-### MeshApp Component Boilerplate
+# MeshApp Image Group
 
-This boilerplate will create a ready to use package of your component,
-to be loaded into the mainframe of the meshapp-webapp,
+## How to
 
-You can insert your developed component and build it,
-or you can start from scratch.
+If you make any changes you should:
 
-After adding your component just run
+- Update package version in `package.json`
+- Build the package
+  ```
+  yarn run build
+  ```
 
-```
-yarn run lib
-```
+- Commit/push your changes and:
+    ```
+    npm (update/install) --save meshapp-image-group
+    ```
+    on the project that you want to use this component
 
-Props
+- Make sure that this component (on your main project) has the following download link inside the `package.json`:
+    ```
+    git+ssh://git@github.com/MeshApp/meshapp-image-group.git#master
+    ```
+
+## Props
 
 ```
   width: PropTypes.string
